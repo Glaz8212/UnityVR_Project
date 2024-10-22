@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BatController : MonoBehaviour
 {
-    public float minHitForce = 200f;  // 최소 힘
-    public float maxHitForce = 1000f;  // 최대 힘
+    public float minHitForce = 2f;  // 최소 힘
+    public float maxHitForce = 10f;  // 최대 힘
 
     private Vector3 previousPosition;  // 배트의 이전 프레임 위치
     private float swingSpeed;  // 배트의 스윙 속도
