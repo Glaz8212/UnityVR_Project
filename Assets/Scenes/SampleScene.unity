@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 39cace2863926444a9a78daa8ae26413, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -834,6 +834,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6068688174323754410, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
+      propertyPath: m_Height
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068688174323754410, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
+      propertyPath: m_Radius
+      value: 0.08
+      objectReference: {fileID: 0}
     - target: {fileID: 9148062435262413770, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
       propertyPath: m_Name
       value: Bat
@@ -856,23 +864,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9150306892850780628, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7422263
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 9150306892850780628, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6701494
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 9150306892850780628, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9150306892850780628, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9150306892850780628, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 84.157
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 9150306892850780628, guid: 1dc0a8163bf0e72438cd59094b93730a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1105,7 +1113,7 @@ Transform:
   m_Children:
   - {fileID: 1861918222}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1112667789
 MonoBehaviour:
@@ -1121,9 +1129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 8371430070259882487, guid: d170a95be3d1fdd459c0f4a000fe2c5b, type: 3}
   spawnPoint: {fileID: 1861918222}
-  fourSeamForce: 40
-  curveForce: 30
-  pitchInterval: 1
+  fourSeamForce: 20
+  curveForce: 10
+  pitchInterval: 5
 --- !u!1001 &1164030229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1467,7 +1475,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1318555931
 PrefabInstance:
